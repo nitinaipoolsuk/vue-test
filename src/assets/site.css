@@ -1,0 +1,13 @@
+.customize-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .customize-img {
+        width: 100%;
+        height: auto;
+    }
+}
